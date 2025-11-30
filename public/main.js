@@ -17,16 +17,9 @@ function renderData(data){
         sectionData.innerHTML += `<div class="bg-red-200 p-4 rounded">${d.nombre}</div>`
     }
 
-    //<div class="bg-red-200 p-4 rounded">Item</div>
-
-
-
-
+    
 
 }
-
-
-/*
 
 
 
@@ -56,6 +49,7 @@ async function obtenerDatos() {
     renderData(dataShow)
 
 
+
   } catch (error) {
 
     console.log("FALLE")
@@ -68,4 +62,4 @@ obtenerDatos();
 
 
 
-*/
+
